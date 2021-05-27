@@ -1,5 +1,6 @@
-import { Box, Button, Container, CssBaseline } from '@material-ui/core';
+import {Button, Container, CssBaseline} from "@material-ui/core";
 import React, { useState } from 'react';
+import BlackBox from "./BlackBox";
 import "./App.css";
 
 function App() {
@@ -54,26 +55,26 @@ function App() {
     if(leftMove === "0" && topMove === "0"){ 
       setLeftMove('');
       setTopMove('');
-      setRightMove(0)
-      setBottomMove(0);
+      setRightMove("0")
+      setBottomMove("0");
     }
     else if(rightMove === "0" && topMove === "0"){
       setRightMove('');
       setTopMove('');
-      setLeftMove(0);
-      setBottomMove(0);
+      setLeftMove("0");
+      setBottomMove("0");
     }
     else if(rightMove === "0" && bottomMove === "0"){
       setRightMove('');
       setBottomMove('');
-      setTopMove(0);
-      setLeftMove(0);
+      setTopMove("0");
+      setLeftMove("0");
     }
     else if(leftMove === "0" && bottomMove === "0"){
       setLeftMove('');
       setBottomMove('');
-      setTopMove(0);
-      setRightMove(0);
+      setTopMove("0");
+      setRightMove("0");
     }
   }
 
@@ -81,13 +82,9 @@ function App() {
     <CssBaseline>
     <Container maxWidth='lg'  style={{paddingTop:"5%", height:"92vh"}} >
       <Container maxWidth="md"   className="box-container" >
-      <Box
-       width={80} height={80} className="box" 
-      style={
-        {right:rightMove, left: leftMove, top: topMove, bottom: bottomMove}
-      }
-      >  
-        </Box>
+      
+      <BlackBox posRight={rightMove} posLeft={leftMove} posTop={topMove} posBottom={bottomMove} />
+
       </Container>
       <Container maxWidth="md" style={{marginTop:"2%", padding:"0"}} >
       <Button variant="contained" color="primary" onClick={()=> forwardFunction()} > Forward </Button>
