@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/react-boxMovement/static/css/main.ef9be3b7.chunk.css",
-    "main.js": "/react-boxMovement/static/js/main.2399ec79.chunk.js",
-    "main.js.map": "/react-boxMovement/static/js/main.2399ec79.chunk.js.map",
-    "runtime-main.js": "/react-boxMovement/static/js/runtime-main.acfc947a.js",
-    "runtime-main.js.map": "/react-boxMovement/static/js/runtime-main.acfc947a.js.map",
-    "static/js/2.9d8c5bb9.chunk.js": "/react-boxMovement/static/js/2.9d8c5bb9.chunk.js",
-    "static/js/2.9d8c5bb9.chunk.js.map": "/react-boxMovement/static/js/2.9d8c5bb9.chunk.js.map",
+    "main.css": "/react-boxMovement/static/css/main.f87f75af.css",
+    "main.js": "/react-boxMovement/static/js/main.14830c08.js",
     "index.html": "/react-boxMovement/index.html",
-    "static/css/main.ef9be3b7.chunk.css.map": "/react-boxMovement/static/css/main.ef9be3b7.chunk.css.map",
-    "static/js/2.9d8c5bb9.chunk.js.LICENSE.txt": "/react-boxMovement/static/js/2.9d8c5bb9.chunk.js.LICENSE.txt"
+    "main.f87f75af.css.map": "/react-boxMovement/static/css/main.f87f75af.css.map",
+    "main.14830c08.js.map": "/react-boxMovement/static/js/main.14830c08.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.acfc947a.js",
-    "static/js/2.9d8c5bb9.chunk.js",
-    "static/css/main.ef9be3b7.chunk.css",
-    "static/js/main.2399ec79.chunk.js"
+    "static/css/main.f87f75af.css",
+    "static/js/main.14830c08.js"
   ]
 }
